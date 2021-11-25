@@ -7,6 +7,7 @@ NOOOOOOOOOoooOOOOOooOO I AM NoT AuTiSTIc I JuST LiKE COmPIling my Own TErmInal!!
 + boxdraw
 + ligatures
 + newterm
++ appsync
 
 ## keybindings
 
