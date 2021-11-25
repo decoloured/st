@@ -4,6 +4,7 @@ NOOOOOOOOOoooOOOOOooOO I AM NoT AuTiSTIc I JuST LiKE COmPIling my Own TErmInal!!
 
 ## patches
 
++ pywal support (run `make clean install` as root!)
 + boxdraw
 + ligatures
 + newterm
@@ -11,8 +12,10 @@ NOOOOOOOOOoooOOOOOooOO I AM NoT AuTiSTIc I JuST LiKE COmPIling my Own TErmInal!!
 
 ## keybindings
 
-`alt+{c, v}` to copy/paste\
-`alt+enter` to create a new terminal
++ `alt+[c, v]` to copy/paste
++ `alt+enter` to create a new terminal with the same working directory
++ `alt+[up, down]` to increase/decrease font size
++ `alt+0` to reset font size
 
 ## building
 
