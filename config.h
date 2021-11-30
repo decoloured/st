@@ -5,8 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = {"JoyPixels:pixelsize=14:antialias=true:autohint=true"};
+static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
+static char *font2[] = {
+  "Noto Sans CJK JP:pixelsize=14:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
+};
 
 static int borderpx = 10;
 
@@ -181,8 +184,10 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
   { MODKEY,               XK_Return,      newterm,        {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_k,           kscrollup,      {.i = 1}  },
+	{ MODKEY,               XK_j,           kscrolldown,    {.i = 1}  },
+	{ MODKEY,               XK_Page_Up,     kscrollup,      {.i = 1}  },
+	{ MODKEY,               XK_Page_Down,   kscrolldown,    {.i = 1}  },
 };
 
 /*
