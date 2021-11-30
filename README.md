@@ -1,14 +1,15 @@
 # 💻 *simple terminal*
 
-NOOOOOOOOOoooOOOOOooOO I AM NoT AuTiSTIc I JuST LiKE COmPIling my Own TErmInal!!!!11!
+the vaccine:
 
 ## patches
 
-+ pywal support (run `make clean install` as root!)
-+ boxdraw
-+ ligatures
-+ newterm
-+ sync
++ pywal support (INSANE!)
++ boxdraw (WOW!)
++ ligatures (AMAZING!)
++ newterm (COOL!)
++ sync (CRAZY!)
++ font2 (RAD!)
 
 ## keybindings
 
@@ -20,6 +21,6 @@ NOOOOOOOOOoooOOOOOooOO I AM NoT AuTiSTIc I JuST LiKE COmPIling my Own TErmInal!!
 ## building
 
 + clone this repository
-+ replace `i9p` in `#include "/home/i9p/.cache/wal/colors-wal-st.h"` (line 108) with your username
-+ execute `make install` as root
++ replace `i9p` in `#include "/home/i9p/.cache/wal/colors-wal-st.h"` (`config.h` - line 108) with your username
++ execute `make clean install` as root
 
