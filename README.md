@@ -1,15 +1,16 @@
-# 💻 *simple terminal*
+# 🎛 *simple terminal*
 
-the vaccine:
+the vaccine :
 
 ## patches
 
-+ pywal support (INSANE!)
-+ boxdraw (WOW!)
-+ ligatures (AMAZING!)
-+ newterm (COOL!)
-+ sync (CRAZY!)
-+ font2 (RAD!)
++ pywal support
++ anysize
++ boxdraw
++ font2
++ ligatures
++ newterm
++ sync
 
 ## keybindings
 
