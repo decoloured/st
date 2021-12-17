@@ -1,4 +1,4 @@
-# 🎛 *simple terminal*
+# 🎛 *st*
 
 the vaccine :
 
